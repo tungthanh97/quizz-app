@@ -1,0 +1,32 @@
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questionContainer {
+    width: 80%;
+    height: 50%;
+    padding: 1rem 2rem;
+}
+
+.listItem {
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.list .Mui-selected {
+    background-color: #303f9f;
+}
+
+.list {
+    width: 90%;
+    margin: 1rem 2rem;
+    height: 100%;
+    display: grid;
+    gap: 2rem 4rem;
+    grid-template-columns: 1fr 1fr;
+}
